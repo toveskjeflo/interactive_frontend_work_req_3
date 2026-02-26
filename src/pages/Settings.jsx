@@ -19,7 +19,7 @@ export default function Settings() {
         <label>Dagen Vibe</label>
         <select value={preferences.mood} onChange={(e) => updatePreference('mood', e.target.value)}>
           <option value="productive">Fult fokus</option>
-          <option value="relaxed">Slappfisk</option>
+          <option value="relaxed">Hviiiiiletid</option>
         </select>
       </div>
 

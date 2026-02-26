@@ -4,8 +4,8 @@ export default function Preview() {
   const { preferences } = useOutletContext();
 
   const config = {
-    productive: { title: "Deep Work Mode", quote: "Focus on being productive instead of busy." },
-    relaxed: { title: "Quiet Moments", quote: "Sometimes the most productive thing you can do is relax." }
+    productive: { title: "Hardt arbeid pågår", quote: "Fult fokus fremover." },
+    relaxed: { title: "Helten restituerer", quote: "Uten ... hvile ... duger helten ikke." }
   };
 
   const current = config[preferences.mood];
