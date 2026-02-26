@@ -8,7 +8,7 @@ export default function Layout() {
   return (
     <div className={`app-container ${theme} ${zenMode ? 'zen-mode' : ''}`}>
       <nav>
-        <Link to="/">Instrumentpanel</Link>
+        <Link to="/">Tavle</Link>
         <Link to="/settings">Skreddersy</Link>
       </nav>
       <main>
