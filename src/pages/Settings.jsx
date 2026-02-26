@@ -10,16 +10,16 @@ export default function Settings() {
       <div style={{ marginBottom: '2rem' }}>
         <label>Visual Style</label>
         <select value={preferences.theme} onChange={(e) => updatePreference('theme', e.target.value)}>
-          <option value="light">Minimal Light</option>
-          <option value="dark">Midnight Slate</option>
+          <option value="light">Snø hvit</option>
+          <option value="dark">Midnatt blå</option>
         </select>
       </div>
 
       <div style={{ marginBottom: '2rem' }}>
         <label>Current Vibe</label>
         <select value={preferences.mood} onChange={(e) => updatePreference('mood', e.target.value)}>
-          <option value="productive">Focus Flow 🎯</option>
-          <option value="relaxed">Slow Living ☁️</option>
+          <option value="productive">Fult fokus</option>
+          <option value="relaxed">Slappfisk</option>
         </select>
       </div>
 
