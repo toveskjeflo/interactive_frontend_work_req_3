@@ -13,7 +13,7 @@ export default function Preview() {
   return (
     <div className="glass-card" style={{ textAlign: 'center' }}>
       <span style={{ textTransform: 'uppercase', letterSpacing: '2px', fontSize: '0.8rem', opacity: 0.6 }}>
-        Current Preference: {preferences.theme}
+        Dagens Preferanse: {preferences.theme}
       </span>
       <h1 style={{ fontSize: '3.5rem', margin: '1rem 0', fontWeight: '800' }}>
         {current.title}
@@ -23,7 +23,7 @@ export default function Preview() {
       </p>
       {preferences.zenMode && (
         <div style={{ marginTop: '2rem', color: '#6366f1', fontSize: '0.9rem', fontWeight: 'bold' }}>
-          ✨ Zen Mode Active
+          Zen-modus aktivt
         </div>
       )}
     </div>
